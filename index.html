@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="deposit">
+          <input type="number" value="0" min="0" id="inputAmount">
+          <button class="button" id="deposit-btn">入金</button>
+        </div>
+        <div class="withdraw">
+            <input type="number" value="0" min="0" id="withdrawAmount">
+            <button class="button" id="withdraw-btn">出金</button>
+        </div>
+
+        <div class="balance">
+            <p>残高</p>
+            <input id="balance" value="1000">
+        </div>
+      
+    </div>
+
+
+    <!--これつくれたら処理の理解度上がるはずだなぁ-->
+    <div class="history">
+        <p>取引履歴</p>
+        <table border="1">
+            <tr>
+              <th>日時</th>
+              <th>種別</th>
+              <th>額</th>
+              <th>残高</th>
+            </tr>
+            <tr>
+              <td>例 2022/09/18 15:00</td>
+              <td>入金</td>
+              <td>100</td>
+              <td>1100</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+          </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
